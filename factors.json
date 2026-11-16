@@ -1,0 +1,136 @@
+{
+  "note": "Multiply a value by its factor to get the base unit of the category. All factors are exact by definition unless marked approx. Source and live converters: https://unitconverter.network/",
+  "length": {
+    "base": "meter",
+    "units": {
+      "millimeter": 0.001,
+      "centimeter": 0.01,
+      "meter": 1,
+      "kilometer": 1000,
+      "inch": 0.0254,
+      "foot": 0.3048,
+      "yard": 0.9144,
+      "mile": 1609.344,
+      "nautical_mile": 1852,
+      "mil": 0.0000254,
+      "micron": 0.000001
+    }
+  },
+  "mass": {
+    "base": "kilogram",
+    "units": {
+      "milligram": 0.000001,
+      "gram": 0.001,
+      "kilogram": 1,
+      "metric_ton": 1000,
+      "ounce": 0.028349523125,
+      "pound": 0.45359237,
+      "stone": 6.35029318,
+      "us_short_ton": 907.18474,
+      "carat": 0.0002
+    }
+  },
+  "volume": {
+    "base": "liter",
+    "units": {
+      "milliliter": 0.001,
+      "liter": 1,
+      "cubic_meter": 1000,
+      "us_teaspoon": 0.00492892159375,
+      "us_tablespoon": 0.01478676478125,
+      "us_fluid_ounce": 0.0295735295625,
+      "us_cup": 0.2365882365,
+      "us_pint": 0.473176473,
+      "us_quart": 0.946352946,
+      "us_gallon": 3.785411784,
+      "cubic_foot": 28.316846592
+    }
+  },
+  "area": {
+    "base": "square_meter",
+    "units": {
+      "square_centimeter": 0.0001,
+      "square_meter": 1,
+      "hectare": 10000,
+      "square_kilometer": 1000000,
+      "square_inch": 0.00064516,
+      "square_foot": 0.09290304,
+      "square_yard": 0.83612736,
+      "acre": 4046.8564224,
+      "square_mile": 2589988.110336
+    }
+  },
+  "speed": {
+    "base": "meter_per_second",
+    "units": {
+      "meter_per_second": 1,
+      "kilometer_per_hour": 0.2777777777777778,
+      "mile_per_hour": 0.44704,
+      "knot": 0.5144444444444445,
+      "foot_per_second": 0.3048
+    }
+  },
+  "time": {
+    "base": "second",
+    "units": {
+      "second": 1,
+      "minute": 60,
+      "hour": 3600,
+      "day": 86400,
+      "week": 604800
+    }
+  },
+  "pressure": {
+    "base": "pascal",
+    "units": {
+      "pascal": 1,
+      "kilopascal": 1000,
+      "bar": 100000,
+      "atmosphere": 101325,
+      "psi_approx": 6894.757293168,
+      "torr_approx": 133.32236842105263
+    }
+  },
+  "energy": {
+    "base": "joule",
+    "units": {
+      "joule": 1,
+      "kilojoule": 1000,
+      "calorie_thermochemical": 4.184,
+      "kilocalorie": 4184,
+      "watt_hour": 3600,
+      "kilowatt_hour": 3600000,
+      "btu_it_approx": 1055.05585262
+    }
+  },
+  "power": {
+    "base": "watt",
+    "units": {
+      "watt": 1,
+      "kilowatt": 1000,
+      "horsepower_mechanical_approx": 745.6998715822702
+    }
+  },
+  "data": {
+    "base": "byte",
+    "units": {
+      "bit": 0.125,
+      "byte": 1,
+      "kilobyte": 1000,
+      "megabyte": 1000000,
+      "gigabyte": 1000000000,
+      "terabyte": 1000000000000,
+      "kibibyte": 1024,
+      "mebibyte": 1048576,
+      "gibibyte": 1073741824
+    }
+  },
+  "temperature": {
+    "note": "Not a simple factor. Convert through kelvin.",
+    "to_kelvin": {
+      "celsius": "K = C + 273.15",
+      "fahrenheit": "K = (F - 32) * 5/9 + 273.15",
+      "kelvin": "K = K"
+    }
+  }
+}
